@@ -345,23 +345,16 @@ to   { opacity: 1; transform: translateY(0); }
 .vd-card { background: #111827; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,.07); margin-bottom: 8px; }
 .vd-thumb { position: relative; aspect-ratio: 16/9; background: #0a0f1a; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px; overflow: hidden; }
 .vd-thumb iframe, .vd-thumb video { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
-.vd-av { width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; color: white; }
-.vd-tname { font-size: 8px; color: rgba(255,255,255,.4); }
-.vd-play { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 38px; height: 38px; background: rgba(249,115,22,.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
-.vd-arr { width: 0; height: 0; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-left: 13px solid white; margin-left: 2px; }
-.vd-dur { position: absolute; bottom: 6px; right: 6px; background: rgba(0,0,0,.75); color: white; font-size: 7px; font-weight: 700; padding: 2px 6px; border-radius: 3px; }
+
 .vd-ctrl { padding: 8px 10px 0; }
 .vd-status { font-size: 8px; font-weight: 700; padding: 2px 7px; border-radius: 20px; margin-bottom: 5px; display: inline-block; }
 .vd-empty { background: rgba(239,68,68,.1); color: #f87171; border: 1px solid rgba(239,68,68,.15); }
-.vd-tabs { display: flex; margin-bottom: 6px; border-radius: 6px; overflow: hidden; border: 1px solid rgba(255,255,255,.08); }
-.vd-tab { flex: 1; padding: 5px; font-size: 9px; font-weight: 700; text-align: center; cursor: pointer; background: transparent; border: none; color: #64748b; }
-.vd-tab.on { background: #f97316; color: #000; }
+
 .vd-inp { width: 100%; background: #0a0f1a; border: 1px solid rgba(255,255,255,.1); border-radius: 6px; padding: 6px 8px; font-size: 9px; color: #e2e8f0; outline: none; font-family: inherit; }
 .vd-inp::placeholder { color: #475569; }
 .vd-inp:focus { border-color: #f97316; }
 .vd-load { width: 100%; margin-top: 4px; padding: 6px; background: #1e3a5f; color: #93c5fd; font-weight: 700; font-size: 9px; border: none; border-radius: 6px; cursor: pointer; }
-.vd-ulbl { display: flex; flex-direction: column; align-items: center; gap: 3px; border: 1.5px dashed rgba(255,255,255,.12); border-radius: 6px; padding: 10px; cursor: pointer; text-align: center; }
-.vd-author { padding: 6px 10px 8px; display: flex; align-items: center; gap: 7px; border-top: 1px solid rgba(255,255,255,.05); }
+
 .vd-av-sm { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 8px; font-weight: 900; color: white; flex-shrink: 0; }
 .btn-flutuante {
   position: fixed;
@@ -396,10 +389,8 @@ to   { opacity: 1; transform: translateY(0); }
 
 <section style="position:relative;overflow:hidden;background:#06090f;padding:0;">
 
-
   <div style="position:absolute;top:0;left:-20px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(249,115,22,.2) 0%,transparent 70%);pointer-events:none;z-index:1;"></div>
   <div style="position:absolute;top:0;right:-20px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.18) 0%,transparent 70%);pointer-events:none;z-index:1;"></div>
-
 
   <div style="position:absolute;left:-32px;top:18px;transform:rotate(-14deg);z-index:2;filter:blur(1px);opacity:.55;">
     <div style="background:#1a2234;border-radius:20px;padding:5px;width:108px;border:1px solid rgba(249,115,22,.3);box-shadow:0 0 24px rgba(249,115,22,.2);">
@@ -420,7 +411,6 @@ to   { opacity: 1; transform: translateY(0); }
       </div>
     </div>
   </div>
-
 
   <div style="position:absolute;right:-30px;top:14px;transform:rotate(13deg);z-index:2;filter:blur(1px);opacity:.55;">
     <div style="background:#1a2234;border-radius:20px;padding:5px;width:108px;border:1px solid rgba(37,99,235,.3);box-shadow:0 0 24px rgba(37,99,235,.2);">
@@ -452,10 +442,8 @@ to   { opacity: 1; transform: translateY(0); }
     </div>
   </div>
 
-
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(6,9,15,.45) 0%,rgba(6,9,15,.88) 72%);z-index:3;pointer-events:none;"></div>
   <div style="position:absolute;bottom:0;left:0;right:0;height:55%;background:linear-gradient(to bottom,transparent,rgba(6,9,15,.97));z-index:3;pointer-events:none;"></div>
-
 
   <div style="position:relative;z-index:5;padding:62px 18px 24px;text-align:center;">
     <div class="hero-badge">⚡ Ferramenta PRO para Eletricistas</div>
@@ -497,7 +485,6 @@ to   { opacity: 1; transform: translateY(0); }
   <div class="mob-lbl">Como calcular — passo a passo</div>
   <p style="font-size:11px;color:#64748b;margin-bottom:14px;line-height:1.5;">Veja como é simples calcular a demanda elétrica de uma residência do zero.</p>
 
-
   <div style="background:#111827;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.07);margin-bottom:10px;">
     <div style="background:#1e3a5f;padding:8px 12px;display:flex;align-items:center;gap:8px;">
       <div style="background:#f97316;color:#000;font-size:9px;font-weight:900;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">1</div>
@@ -527,7 +514,6 @@ to   { opacity: 1; transform: translateY(0); }
     </div>
   </div>
 
-
   <div style="background:#111827;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.07);margin-bottom:10px;">
     <div style="background:#312e81;padding:8px 12px;display:flex;align-items:center;gap:8px;">
       <div style="background:#f97316;color:#000;font-size:9px;font-weight:900;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">2</div>
@@ -552,7 +538,6 @@ to   { opacity: 1; transform: translateY(0); }
       </div>
     </div>
   </div>
-
 
   <div style="background:#111827;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.07);margin-bottom:10px;">
     <div style="background:#1e3a5f;padding:8px 12px;display:flex;align-items:center;gap:8px;">
@@ -581,7 +566,6 @@ to   { opacity: 1; transform: translateY(0); }
       <div style="margin-top:8px;background:#7c3aed;border-radius:7px;padding:7px;text-align:center;font-size:8.5px;font-weight:900;color:white;">⚡ CALCULAR DEMANDA →</div>
     </div>
   </div>
-
 
   <div style="background:#111827;border-radius:12px;overflow:hidden;border:1px solid rgba(249,115,22,.2);">
     <div style="background:#431407;padding:8px 12px;display:flex;align-items:center;gap:8px;">
@@ -647,69 +631,75 @@ to   { opacity: 1; transform: translateY(0); }
 <div class="mob-sec" style="background:#0d1526;">
   <div class="mob-lbl">Quem usa fala</div>
 
+  <!-- CARD 1 -->
   <div class="vd-card">
     <div class="vd-thumb" id="vdt1">
-      <div class="vd-av" style="background:#1d4ed8;">MR</div>
-      <div class="vd-play"><div class="vd-arr"></div></div>
-      <div class="vd-tname">Marcelo R. — SP</div>
-      <div class="vd-dur">1:12</div>
-    </div>
-    <div class="vd-ctrl">
-      <div class="vd-status vd-empty" id="vds1">● Sem vídeo</div>
-      <div class="vd-tabs">
-        <button class="vd-tab on" onclick="vdT(1,'l',this)">🔗 Link</button>
-        <button class="vd-tab" onclick="vdT(1,'u',this)">📁 PC</button>
+      <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:#0a0f1a;" id="vdp1">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.2);display:flex;align-items:center;justify-content:center;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 10l4.553-2.277A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" stroke="#f97316" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div style="font-size:9px;color:#475569;">Vídeo em breve</div>
       </div>
-      <div id="vdtl1"><input class="vd-inp" id="vdil1" placeholder="youtube.com/watch?v=..."><button class="vd-load" onclick="vdL(1)">▶ Carregar vídeo</button></div>
-      <div id="vdtu1" style="display:none;"><label class="vd-ulbl"><span style="font-size:18px;">📁</span><span style="font-size:9px;color:#64748b;"><strong style="color:#94a3b8;display:block;">Escolher do PC</strong>MP4, MOV</span><input type="file" accept="video/*" style="display:none;" onchange="vdU(1,this)"></label></div>
     </div>
-    <div class="vd-author">
+    <div style="padding:8px 10px;border-top:1px solid rgba(255,255,255,.06);display:flex;align-items:center;gap:7px;">
       <div class="vd-av-sm" style="background:#1d4ed8;">MR</div>
-      <div><div style="color:#f97316;font-size:9px;">★★★★★</div><div style="font-size:10px;font-weight:700;color:white;">Marcelo R.</div><div style="font-size:8.5px;color:#64748b;">Eletricista — SP</div></div>
+      <div style="flex:1;"><div style="color:#f97316;font-size:9px;">★★★★★</div><div style="font-size:10px;font-weight:700;color:white;">Marcelo R.</div><div style="font-size:8.5px;color:#64748b;">Eletricista — SP</div></div>
+      <div class="vd-status vd-empty" id="vds1">● Sem vídeo</div>
+    </div>
+    <div class="vd-ctrl" style="background:#0f172a;padding:8px 10px;">
+      <div style="display:flex;gap:6px;">
+        <input class="vd-inp" id="vdil1" placeholder="Cole o link do YouTube...">
+        <button class="vd-load" onclick="vdL(1)">▶</button>
+      </div>
+      <div style="font-size:8px;color:#475569;margin-top:4px;">Ex: youtube.com/watch?v=abc123</div>
     </div>
   </div>
 
+  <!-- CARD 2 -->
   <div class="vd-card">
     <div class="vd-thumb" id="vdt2">
-      <div class="vd-av" style="background:#0f6e56;">JS</div>
-      <div class="vd-play"><div class="vd-arr"></div></div>
-      <div class="vd-tname">João S. — MG</div>
-      <div class="vd-dur">0:58</div>
-    </div>
-    <div class="vd-ctrl">
-      <div class="vd-status vd-empty" id="vds2">● Sem vídeo</div>
-      <div class="vd-tabs">
-        <button class="vd-tab on" onclick="vdT(2,'l',this)">🔗 Link</button>
-        <button class="vd-tab" onclick="vdT(2,'u',this)">📁 PC</button>
+      <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:#0a0f1a;" id="vdp2">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.2);display:flex;align-items:center;justify-content:center;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 10l4.553-2.277A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" stroke="#f97316" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div style="font-size:9px;color:#475569;">Vídeo em breve</div>
       </div>
-      <div id="vdtl2"><input class="vd-inp" id="vdil2" placeholder="youtube.com/watch?v=..."><button class="vd-load" onclick="vdL(2)">▶ Carregar vídeo</button></div>
-      <div id="vdtu2" style="display:none;"><label class="vd-ulbl"><span style="font-size:18px;">📁</span><span style="font-size:9px;color:#64748b;"><strong style="color:#94a3b8;display:block;">Escolher do PC</strong>MP4, MOV</span><input type="file" accept="video/*" style="display:none;" onchange="vdU(2,this)"></label></div>
     </div>
-    <div class="vd-author">
+    <div style="padding:8px 10px;border-top:1px solid rgba(255,255,255,.06);display:flex;align-items:center;gap:7px;">
       <div class="vd-av-sm" style="background:#0f6e56;">JS</div>
-      <div><div style="color:#f97316;font-size:9px;">★★★★★</div><div style="font-size:10px;font-weight:700;color:white;">João S.</div><div style="font-size:8.5px;color:#64748b;">Técnico — MG</div></div>
+      <div style="flex:1;"><div style="color:#f97316;font-size:9px;">★★★★★</div><div style="font-size:10px;font-weight:700;color:white;">João S.</div><div style="font-size:8.5px;color:#64748b;">Técnico — MG</div></div>
+      <div class="vd-status vd-empty" id="vds2">● Sem vídeo</div>
+    </div>
+    <div class="vd-ctrl" style="background:#0f172a;padding:8px 10px;">
+      <div style="display:flex;gap:6px;">
+        <input class="vd-inp" id="vdil2" placeholder="Cole o link do YouTube...">
+        <button class="vd-load" onclick="vdL(2)">▶</button>
+      </div>
+      <div style="font-size:8px;color:#475569;margin-top:4px;">Ex: youtube.com/watch?v=abc123</div>
     </div>
   </div>
 
+  <!-- CARD 3 -->
   <div class="vd-card">
     <div class="vd-thumb" id="vdt3">
-      <div class="vd-av" style="background:#854F0B;">FP</div>
-      <div class="vd-play"><div class="vd-arr"></div></div>
-      <div class="vd-tname">Felipe P. — RJ</div>
-      <div class="vd-dur">1:04</div>
-    </div>
-    <div class="vd-ctrl">
-      <div class="vd-status vd-empty" id="vds3">● Sem vídeo</div>
-      <div class="vd-tabs">
-        <button class="vd-tab on" onclick="vdT(3,'l',this)">🔗 Link</button>
-        <button class="vd-tab" onclick="vdT(3,'u',this)">📁 PC</button>
+      <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:#0a0f1a;" id="vdp3">
+        <div style="width:40px;height:40px;border-radius:50%;background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.2);display:flex;align-items:center;justify-content:center;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 10l4.553-2.277A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" stroke="#f97316" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div style="font-size:9px;color:#475569;">Vídeo em breve</div>
       </div>
-      <div id="vdtl3"><input class="vd-inp" id="vdil3" placeholder="youtube.com/watch?v=..."><button class="vd-load" onclick="vdL(3)">▶ Carregar vídeo</button></div>
-      <div id="vdtu3" style="display:none;"><label class="vd-ulbl"><span style="font-size:18px;">📁</span><span style="font-size:9px;color:#64748b;"><strong style="color:#94a3b8;display:block;">Escolher do PC</strong>MP4, MOV</span><input type="file" accept="video/*" style="display:none;" onchange="vdU(3,this)"></label></div>
     </div>
-    <div class="vd-author">
+    <div style="padding:8px 10px;border-top:1px solid rgba(255,255,255,.06);display:flex;align-items:center;gap:7px;">
       <div class="vd-av-sm" style="background:#854F0B;">FP</div>
-      <div><div style="color:#f97316;font-size:9px;">★★★★★</div><div style="font-size:10px;font-weight:700;color:white;">Felipe P.</div><div style="font-size:8.5px;color:#64748b;">Eletricista — RJ</div></div>
+      <div style="flex:1;"><div style="color:#f97316;font-size:9px;">★★★★★</div><div style="font-size:10px;font-weight:700;color:white;">Felipe P.</div><div style="font-size:8.5px;color:#64748b;">Eletricista — RJ</div></div>
+      <div class="vd-status vd-empty" id="vds3">● Sem vídeo</div>
+    </div>
+    <div class="vd-ctrl" style="background:#0f172a;padding:8px 10px;">
+      <div style="display:flex;gap:6px;">
+        <input class="vd-inp" id="vdil3" placeholder="Cole o link do YouTube...">
+        <button class="vd-load" onclick="vdL(3)">▶</button>
+      </div>
+      <div style="font-size:8px;color:#475569;margin-top:4px;">Ex: youtube.com/watch?v=abc123</div>
     </div>
   </div>
 
@@ -720,10 +710,8 @@ to   { opacity: 1; transform: translateY(0); }
 <div class="mob-div"></div>
 <section style="position:relative;overflow:hidden;background:#06090f;padding:0;" id="cta">
 
-
   <div style="position:absolute;top:0;left:-20px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(249,115,22,.18) 0%,transparent 70%);pointer-events:none;z-index:1;"></div>
   <div style="position:absolute;top:0;right:-20px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.15) 0%,transparent 70%);pointer-events:none;z-index:1;"></div>
-
 
   <div style="position:absolute;left:-32px;top:18px;transform:rotate(-14deg);z-index:2;filter:blur(1px);opacity:.45;">
     <div style="background:#1a2234;border-radius:20px;padding:5px;width:108px;border:1px solid rgba(249,115,22,.3);box-shadow:0 0 24px rgba(249,115,22,.15);">
@@ -744,7 +732,6 @@ to   { opacity: 1; transform: translateY(0); }
       </div>
     </div>
   </div>
-
 
   <div style="position:absolute;right:-30px;top:14px;transform:rotate(13deg);z-index:2;filter:blur(1px);opacity:.45;">
     <div style="background:#1a2234;border-radius:20px;padding:5px;width:108px;border:1px solid rgba(37,99,235,.3);box-shadow:0 0 24px rgba(37,99,235,.15);">
@@ -776,10 +763,8 @@ to   { opacity: 1; transform: translateY(0); }
     </div>
   </div>
 
-
   <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(6,9,15,.5) 0%,rgba(6,9,15,.9) 72%);z-index:3;pointer-events:none;"></div>
   <div style="position:absolute;bottom:0;left:0;right:0;height:50%;background:linear-gradient(to bottom,transparent,rgba(6,9,15,.98));z-index:3;pointer-events:none;"></div>
-
 
   <div style="position:relative;z-index:5;" class="container">
     <div class="section-label" style="justify-content:center;">Investimento único</div>
@@ -834,12 +819,6 @@ const observer = new IntersectionObserver((entries) => {
 <a href="#cta" class="btn-flutuante">⚡ QUERO O APP AGORA</a>
 
 <script>
-function vdT(id,t,btn){
-  btn.closest('.vd-tabs').querySelectorAll('.vd-tab').forEach(b=>b.classList.remove('on'));
-  btn.classList.add('on');
-  document.getElementById('vdtl'+id).style.display=t==='l'?'block':'none';
-  document.getElementById('vdtu'+id).style.display=t==='u'?'block':'none';
-}
 function vdYtId(url){const m=url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([^&?/\s]{11})/);return m?m[1]:null;}
 function vdL(id){
   const url=document.getElementById('vdil'+id).value.trim();
@@ -857,18 +836,6 @@ function vdL(id){
     vt.appendChild(f);
     vs.textContent='● YouTube OK';vs.className='vd-status vd-ok';
   }else{vs.textContent='● Link inválido';vs.className='vd-status vd-empty';}
-}
-function vdU(id,inp){
-  if(!inp.files[0])return;
-  const url=URL.createObjectURL(inp.files[0]);
-  const vt=document.getElementById('vdt'+id);
-  const vs=document.getElementById('vds'+id);
-  vt.querySelectorAll('div').forEach(el=>el.style.display='none');
-  const v=document.createElement('video');
-  v.src=url;v.controls=true;
-  v.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000;';
-  vt.appendChild(v);
-  vs.textContent='● '+inp.files[0].name.substring(0,20);vs.className='vd-status vd-ok';
 }
 </script>
 </body>
