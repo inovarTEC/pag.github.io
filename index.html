@@ -117,17 +117,6 @@ footer p{font-size:13px;color:#475569}
 @keyframes pulseGlow{0%,100%{opacity:.6}50%{opacity:1}}
 @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
 @media(max-width:600px){nav{padding:12px 16px}.app-section{padding:70px 16px}}
-.video-section{padding:80px 24px;background:linear-gradient(180deg,#0a0f1a 0%,#0d1526 100%);text-align:center}
-.video-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--orange);margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:8px}
-.video-label span{width:24px;height:2px;background:var(--orange);border-radius:2px;display:inline-block}
-.video-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,6vw,64px);line-height:.95;margin-bottom:12px}
-.video-sub{font-size:16px;color:#94a3b8;max-width:500px;margin:0 auto 40px;line-height:1.6}
-.video-frame-wrap{position:relative;width:100%;max-width:800px;margin:0 auto;border-radius:20px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 0 1px rgba(249,115,22,.2);background:#0f172a}
-.video-frame-wrap::before{content:'';display:block;padding-top:56.25%}
-.video-frame-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:none}
-.app-video-wrap{position:relative;width:100%;max-width:680px;margin:32px auto 0;border-radius:16px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08)}
-.app-video-wrap::before{content:'';display:block;padding-top:56.25%}
-.app-video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:none}
 </style>
 </head>
 <body>
@@ -170,15 +159,13 @@ footer p{font-size:13px;color:#475569}
 </section>
 
 <hr class="section-div">
-
-<!-- ▶ SEÇÃO VEJA COMO FUNCIONA -->
-<section class="video-section reveal">
-  <div class="container">
-    <div class="video-label"><span></span>Veja em ação<span></span></div>
-    <h2 class="video-title"><span style="color:#fff">VEJA COMO</span><br><span style="color:var(--orange)">FUNCIONA</span></h2>
-    <p class="video-sub">Assista aos vídeos e veja como os apps funcionam na prática — antes de qualquer decisão.</p>
-    <div class="video-frame-wrap">
-      <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pmgTPjWsd1EQnrQ7Qz3SgA_&rel=0&modestbranding=1" title="Playlist Eletricista Power" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section style="padding:72px 24px;background:#0a0f1a;text-align:center">
+  <div class="container" style="max-width:860px">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(249,115,22,.12);border:1px solid rgba(249,115,22,.35);color:var(--orange);font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:6px 18px;border-radius:100px;margin-bottom:20px">&#9654; Veja como funciona</div>
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,5vw,52px);color:#fff;line-height:1;margin-bottom:12px">Demonstrações em vídeo</h2>
+    <p style="color:#94a3b8;font-size:15px;margin-bottom:36px">Assista aos apps funcionando na prática antes de decidir</p>
+    <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:16px;overflow:hidden;border:1px solid rgba(249,115,22,.25);box-shadow:0 24px 64px rgba(0,0,0,.5)">
+      <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pmgTPjWsd1EQnrQ7Qz3SgA_&rel=0&modestbranding=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen loading="lazy" title="Demonstrações Eletricista Power"></iframe>
     </div>
   </div>
 </section>
@@ -196,9 +183,14 @@ footer p{font-size:13px;color:#475569}
         <div class="feat-item" style="border-color:rgba(249,115,22,.2)"><div class="feat-icon">&#128203;</div><div><div class="feat-name" style="color:var(--orange)">Or&ccedil;amentos profissionais</div><div class="feat-text">151 servi&ccedil;os e 150 materiais. PDF com logo e Instagram enviado pelo WhatsApp em 2 minutos.</div></div></div>
         <div class="feat-item" style="border-color:rgba(249,115,22,.2)"><div class="feat-icon">&#128208;</div><div><div class="feat-name" style="color:var(--orange)">Calculadoras NBR 5410</div><div class="feat-text">Dimensione cabos, disjuntores, DPS e queda de tens&atilde;o conforme a norma. Memorial de c&aacute;lculo autom&aacute;tico.</div></div></div>
         <div class="feat-item" style="border-color:rgba(249,115,22,.2)"><div class="feat-icon">&#128197;</div><div><div class="feat-name" style="color:var(--orange)">Agenda + Clientes + Garantias</div><div class="feat-text">Gest&atilde;o completa de visitas, base de clientes e controle de garantias por prazo.</div></div></div>
-        <!-- ▶ Vídeo de demonstração PRO -->
-        <div class="app-video-wrap">
-          <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pliiLvHTCEvbVqvYglYei7Z&rel=0&modestbranding=1" title="Demonstração Power PRO" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style="margin-bottom:20px;border-radius:14px;overflow:hidden;border:1px solid rgba(249,115,22,.25);box-shadow:0 12px 32px rgba(0,0,0,.4)">
+          <div style="background:rgba(249,115,22,.1);padding:10px 14px;display:flex;align-items:center;gap:8px">
+            <span style="color:var(--orange);font-size:13px">&#9654;</span>
+            <span style="color:var(--orange);font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase">Demonstração em vídeo</span>
+          </div>
+          <div style="position:relative;padding-bottom:56.25%;height:0">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pliiLvHTCEvbVqvYglYei7Z&rel=0&modestbranding=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen loading="lazy" title="Eletricista Power PRO - Demonstração"></iframe>
+          </div>
         </div>
         <div class="price-card" style="background:rgba(249,115,22,.08);border:1px solid rgba(249,115,22,.25)">
           <div><span class="old-price">R$197</span><span class="save-badge">ECONOMIZE R$100</span></div>
@@ -258,9 +250,14 @@ footer p{font-size:13px;color:#475569}
         <div class="feat-item" style="border-color:rgba(37,99,235,.2)"><div class="feat-icon">&#128203;</div><div><div class="feat-name" style="color:var(--blue-light)">Or&ccedil;amentos em 2 minutos</div><div class="feat-text">151 servi&ccedil;os e 150 materiais. Busca inteligente que adiciona os materiais automaticamente.</div></div></div>
         <div class="feat-item" style="border-color:rgba(37,99,235,.2)"><div class="feat-icon">&#128196;</div><div><div class="feat-name" style="color:var(--blue-light)">PDF com seu logo</div><div class="feat-text">PDF com logo, Instagram e dados do cliente. Envio direto pelo WhatsApp.</div></div></div>
         <div class="feat-item" style="border-color:rgba(37,99,235,.2)"><div class="feat-icon">&#128197;</div><div><div class="feat-name" style="color:var(--blue-light)">Agenda + Garantias + Relat&oacute;rio</div><div class="feat-text">Agenda de visitas, controle de garantias e relat&oacute;rio mensal de faturamento.</div></div></div>
-        <!-- ▶ Vídeo de demonstração Eletricista Power -->
-        <div class="app-video-wrap">
-          <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pkHREGoPznpZH6B1XJACLvo&rel=0&modestbranding=1" title="Demonstração Eletricista Power" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style="margin-bottom:20px;border-radius:14px;overflow:hidden;border:1px solid rgba(37,99,235,.25);box-shadow:0 12px 32px rgba(0,0,0,.4)">
+          <div style="background:rgba(37,99,235,.1);padding:10px 14px;display:flex;align-items:center;gap:8px">
+            <span style="color:var(--blue-light);font-size:13px">&#9654;</span>
+            <span style="color:var(--blue-light);font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase">Demonstração em vídeo</span>
+          </div>
+          <div style="position:relative;padding-bottom:56.25%;height:0">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pkHREGoPznpZH6B1XJACLvo&rel=0&modestbranding=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen loading="lazy" title="Eletricista Power - Demonstração"></iframe>
+          </div>
         </div>
         <div class="price-card" style="background:rgba(37,99,235,.08);border:1px solid rgba(37,99,235,.25)">
           <div><span class="old-price">R$89</span><span class="save-badge">ECONOMIZE R$44</span></div>
@@ -287,9 +284,14 @@ footer p{font-size:13px;color:#475569}
         <div class="feat-item" style="border-color:rgba(22,163,74,.2)"><div class="feat-icon">&#128203;</div><div><div class="feat-name" style="color:var(--green-light)">Or&ccedil;amentos completos</div><div class="feat-text">Monte or&ccedil;amentos com servi&ccedil;os e materiais. Resultado com lucro e despesas separados.</div></div></div>
         <div class="feat-item" style="border-color:rgba(22,163,74,.2)"><div class="feat-icon">&#128197;</div><div><div class="feat-name" style="color:var(--green-light)">Agenda e Relat&oacute;rios</div><div class="feat-text">Organize atendimentos e acompanhe o faturamento mensal.</div></div></div>
         <div class="feat-item" style="border-color:rgba(22,163,74,.2)"><div class="feat-icon">&#128245;</div><div><div class="feat-name" style="color:var(--green-light)">Funciona offline</div><div class="feat-text">Sem internet, sem mensalidade, sem cart&atilde;o. Instala e usa na hora.</div></div></div>
-        <!-- ▶ Vídeo de demonstração Versão Gratuita -->
-        <div class="app-video-wrap">
-          <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pnLVTfUWx3akI5bsSxdAk9x&rel=0&modestbranding=1" title="Demonstração Versão Gratuita" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style="margin-bottom:20px;border-radius:14px;overflow:hidden;border:1px solid rgba(22,163,74,.25);box-shadow:0 12px 32px rgba(0,0,0,.4)">
+          <div style="background:rgba(22,163,74,.1);padding:10px 14px;display:flex;align-items:center;gap:8px">
+            <span style="color:var(--green-light);font-size:13px">&#9654;</span>
+            <span style="color:var(--green-light);font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase">Demonstração em vídeo</span>
+          </div>
+          <div style="position:relative;padding-bottom:56.25%;height:0">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=PLqGGQaKyd2pnLVTfUWx3akI5bsSxdAk9x&rel=0&modestbranding=1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allowfullscreen loading="lazy" title="Eletricista Power Grátis - Demonstração"></iframe>
+          </div>
         </div>
         <div class="price-card" style="background:rgba(22,163,74,.08);border:1px solid rgba(22,163,74,.25)">
           <div class="price-num" style="color:var(--green-light);font-size:52px">GR&Aacute;TIS</div>
